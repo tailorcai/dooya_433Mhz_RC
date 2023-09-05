@@ -17,7 +17,9 @@ void loop(){
 //  myFa.send(i, 24);//发送端发送数据，i为数字
  if( i==1 ) {
   // myFa.sendQuadState("0011010111F1F0000101");
-  myFa.sendQuadState("0011010111F1F0000110");
+  myFa.sendQuadState("0011010111F1F0000110"); 
+                  //  00 00 11 11 00 11 00 11 11 11 01 11 01 00 00 00 00 11 11 00
+  // myFa.send("0000111100110011111101110100000000111100");
   Serial.print("sending...");
   delay(8000);
   myFa.sendQuadState("0011010111F1F000FFFF");
