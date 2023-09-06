@@ -10,6 +10,6 @@ https://github.com/1technophile/OpenMQTTGateway/issues/693
 found the following branch have add support for dooya, with many changes including:
 https://github.com/1technophile/rc-switch
 
-using unsigned long long, which supports up to 64bits
-sync will be sent before data
+* using unsigned long long, which supports up to 64bits
+* sync will be sent before data
 will test it later on.
